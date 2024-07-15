@@ -1,0 +1,113 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.parent{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left,  rgb(166, 255, 0),skyblue);
+    padding: 4em;
+}
+.elder{
+    width: 90vw;
+    height: 80vh;
+    margin: 0 auto;
+    background-color: skyblue;
+    vertical-align: top;
+    border-radius: 7px;
+    display: inline-block;
+    position: relative;
+}
+.child-one{
+    width: 20vw;
+    height:80vh;
+    margin: 0 auto;
+    /* vertical-align: bottom; */
+    background-color: rgb(13, 13, 219);
+    display: inline-block;
+    border-radius: 10px;
+    position: absolute;
+    top: 47%;
+    transform: translateY(-50%);
+    color: whitesmoke;
+    text-align: center;
+    z-index: 3;
+}
+.two{
+    color: #cccc;
+}
+.baby{
+    background-color: rgb(8, 8, 142) ;
+    width: 20vw;
+    height: 30vh;
+    position: relative;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10rem;
+}
+img{
+    width: 70px;
+    height: 70px;
+}
+
+.child-two{
+    width: 700px;
+    height: 600px;
+    padding: 5rem;
+    /* background-color: rgb(94, 255, 0); */
+    vertical-align: top;
+    /* display: inline-block; */
+    right: 400px;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    
+
+
+}
+form{
+   
+   /* align-content: space-around; */
+   transform: translateX(50%);
+}
+label{
+    display: block;
+    margin-top: 1em;
+
+    
+}
+input{
+    width: 60%;
+    border-radius: 5px;
+    align: right;
+    border: 2px solid #cccc ;
+    /* align-content: end; */
+    font-size: 1.5em;
+    display: inline-block;
+    
+    
+}
+h1{
+    font-size: 2em;
+}
+p{
+    
+    margin-top: 1em;
+}
+button{
+    color: whitesmoke;
+    background-color: rgb(25, 25, 245);
+    display: block;
+    margin-top: 1em;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+button:hover{
+    
+    background-color:rgb(5, 5, 94)
+}
